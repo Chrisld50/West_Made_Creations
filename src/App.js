@@ -1,8 +1,6 @@
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home'; 
-import AboutMe from './components/AboutMe';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,12 +12,11 @@ function App() {
       </div>
 
       <div>
+      <Home />
       </div>
 
       <div>
-      </div>
-
-      <div>
+      <Footer />
       </div>
 
     </div>
