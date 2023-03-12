@@ -1,26 +1,30 @@
+import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home'; 
-import Footer from './components/Footer';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import AboutMe from './components/AboutMe';
+import Home from './components/Home';
+import Contact from './components/Contact'; 
+
 
 function App() {
   return (
     <div className="App background">
 
-      <div>
-        <Header />
-      </div>
+    <Router>
+      <>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
 
-      <div>
-      <Home />
-      </div>
+        <Route exact path='/aboutme' element={<AboutMe />} />
 
-      <div>
-      <Footer />
-      </div>
+        <Route exact path='/contact' element={<Contact />} />
+
+      </Routes>
+      </>
+    </Router>
 
     </div>
   );
-}
+};
 
 export default App;
