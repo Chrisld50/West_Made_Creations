@@ -1,43 +1,22 @@
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image} from 'pure-react-carousel';
 import Repair from '../images/Photo_1.jpg';
 import BareBones from '../images/Photo_2.jpg';
 import CustomB from '../images/Custom_build.gif';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../styling/Carousel.css';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
-export default function createdCarousel () {
-
+export default function CreatedCarousel () {
 
     return (
-        <div className='carousel-container'>
-                <div>
-                <div className={"carousel slide"} data-ride="carousel">
-  <ol className={"carousel-indicators"}>
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" className={"active"}></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div className={"carousel-inner"}>
-    <div className={"carousel-item active"}>
-            <img className={"d-block w-100"} src={BareBones} alt="First slide" />
-    </div>
-    <div class="carousel-item">
-            <img className={"d-block w-100"} src={CustomB} alt="Second slide" />
-    </div>
-        <div class="carousel-item">
-            <img className={"d-block w-100"} src={Repair} alt="Third slide" />
+        <div>
+            <CarouselProvider className={'carousel'} style={{width:1000, height:1000}} naturalSlideWidth={100} naturalSlideHeight={125} totalSlides={3}>
+            <ButtonBack>Back</ButtonBack><ButtonNext>Next</ButtonNext><Slider> 
+                    <Slide index={0}><Image style={{width:700, height:500}} src={BareBones} alt={'bareBones'}/>Bare Bones</Slide>
+                    <Slide index={1}><Image style={{width:700, height:500}} src={CustomB} alt={'customBuilds'}/>Custom Builds</Slide>
+                    <Slide index={2}><Image style={{width:700, height:500}} src={Repair} alt={'repairs'}/>Repairs</Slide>
+                </Slider>
+                </CarouselProvider>
         </div>
-    </div>
-            <a className={"carousel-control-prev"} href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span className={"carousel-control-prev-icon"} aria-hidden="true"></span>
-                <span className={"sr-only"}>Previous</span>
-            </a>
-            <a className={"carousel-control-next"} href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span className={"carousel-control-next-icon"} aria-hidden="true"></span>
-                <span className={"sr-only"}>Next</span>
-            </a>
-        </div>
-
-    </div>
-</div>
     )
 }
