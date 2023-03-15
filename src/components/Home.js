@@ -12,7 +12,7 @@ export default function Home() {
     <Header />
 </div>
 
-<div> What do we do? 
+<div className={'text white'}> What do we do? 
         <Carousel />
 </div>
 

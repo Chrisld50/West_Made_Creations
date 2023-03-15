@@ -1,4 +1,4 @@
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image} from 'pure-react-carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import Repair from '../images/Photo_1.jpg';
 import BareBones from '../images/Photo_2.jpg';
 import CustomB from '../images/Custom_build.gif';
@@ -10,13 +10,43 @@ export default function CreatedCarousel () {
 
     return (
         <div>
-            <CarouselProvider className={'carousel'} style={{width:1000, height:1000}} naturalSlideWidth={100} naturalSlideHeight={125} totalSlides={3}>
-            <ButtonBack>Back</ButtonBack><ButtonNext>Next</ButtonNext><Slider> 
-                    <Slide index={0}><Image style={{width:700, height:500}} src={BareBones} alt={'bareBones'}/>Bare Bones</Slide>
-                    <Slide index={1}><Image style={{width:700, height:500}} src={CustomB} alt={'customBuilds'}/>Custom Builds</Slide>
-                    <Slide index={2}><Image style={{width:700, height:500}} src={Repair} alt={'repairs'}/>Repairs</Slide>
-                </Slider>
-                </CarouselProvider>
+<Carousel className={'carousel'} style={{width:500, height:500,}}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={BareBones}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h5 className={'text'}>Bare Bones Build</h5>
+          <p className={'text'}>Built from the ground up.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Repair}
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h5 className={'text'}>Repairs of any kind</h5>
+          <p className={'text'}>Only using premium parts.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={CustomB}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5 className={'text'}>Custom Builds</h5>
+          <p className={'text'}>
+            Get the build of your dreams!
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
         </div>
     )
 }

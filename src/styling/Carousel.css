@@ -1,5 +1,10 @@
-.carousel{
+.carousel {
+display:inline-flex;
+flex-direction: column;
+justify-content: center;
 
+}
 
-
+.text {
+    color: white;
 }
