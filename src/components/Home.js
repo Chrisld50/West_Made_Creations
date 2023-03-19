@@ -1,18 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
 import Carousel from '../components/Carousel';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import '../styling/Home.css';
 
 
 export default function Home() {
     return (
+<div className={'home'}>
 <div>
-<div>
-
     <Header />
 </div>
 
-<div className={'text white'}> What do we do? 
+<div className={'info'}> What do we do? 
         <Carousel />
 </div>
 

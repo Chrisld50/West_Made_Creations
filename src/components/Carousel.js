@@ -9,7 +9,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 export default function CreatedCarousel () {
 
     return (
-        <div>
+        <div className={'background'}>
 <Carousel className={'carousel'} style={{width:500, height:500,}}>
       <Carousel.Item>
         <img

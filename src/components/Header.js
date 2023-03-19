@@ -6,8 +6,10 @@ import '../styling/Header.css';
 export default function Header() {
     return (
 <div>
-    <h2 className={'header'}> West Made Creations </h2>
-    <h3 className={'header'}> WE DO IT RIGHT!</h3>
+    <div className={'header'} >
+    <h2> West Made Creations </h2>
+    <h3 > WE DO IT RIGHT!</h3>
+    </div>
         <Navbar />
 </div>
     )
