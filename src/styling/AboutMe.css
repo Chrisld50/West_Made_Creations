@@ -5,14 +5,39 @@
 .profilepic {
     width: 300px;
     height: 400px;
+    border: 1px solid white;
+    border-radius: 25px;
+
 }
 
 .alma {
     width: 300px;
     height: 400px;
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 .doggo {
     width: 300px;
     height: 400px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ambackground {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.ptext {
+    color: black;
 }

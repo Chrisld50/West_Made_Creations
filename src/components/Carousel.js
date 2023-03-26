@@ -10,7 +10,7 @@ export default function CreatedCarousel () {
 
     return (
         <div className={'background'}>
-<Carousel className={'carousel'} style={{width:500, height:500,}}>
+<Carousel className={'carousel'} style={{width:700, height:700,}}>
       <Carousel.Item>
         <img
           className="d-block w-100"
