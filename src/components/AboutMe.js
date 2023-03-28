@@ -27,7 +27,7 @@ export default function AboutMe() {
                 <div className={'pictures'}>
                     <img className={'alma'} src={Danda} alt='alma and david'/>
                     <img className={'doggo'} src={Doggo} alt='doggo'/>
-            </div>
+                </div>
                 <p>Gakege. Ap;loalegg gkmjekgnaptg gm;lemg=asegag ;lkoikjfgpoopoikjeag-poje oiehjopije-ojkeafaehgHEh.</p>
                 <p>Agkmphlokmgeae Egaekmpeojpoejtg Egpejpoejg EGpaegpeklm EgaehgaplopeloEPojpok-egagea EWGaeghehpjmeoh</p> 
                 <p>Agkmphlokmgeae Egaekmpeojpoejtg Egpejpoejg EGpaegpeklm EgaehgaplopeloEPojpok-egagea EWGaeghehpjmeoh</p> 

@@ -1,5 +1,23 @@
 .header {
     color: white;
     background-color: black;
+    display: flex;
+    flex-direction: row;
 
+}
+
+.header2 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.item {
+    padding: 10px;
 }

@@ -17,15 +17,17 @@ export default function Home() {
 
         <div>
             <h4> What do we do?  </h4>
-            <p> West Made Creations are about one thing: Building quality PCs.<br />
-            We build your PC from the ground up<br />
-            whether it is a straight forward, generic build<br />
-            or you want the top of the class build<br />
-            we will build your PC the way you want it!</p>
-            <p> Below is just a few pictures of the work we do<br />
-            if you want to see more awesome stuff, head over to<br />
-            our contact page and we can start working towards <br />
-            your dream build!</p>
+            <p>At West Made Creations are about one thing:<br /> 
+            Building quality PCs within budget.<br />
+            We will build your PC from the ground up<br />
+            whether it is a small, generic build<br />
+            to a top of the line custom build.<br />
+            We will make it the way you want<br />
+            while fitting budget needs.</p>
+            <p> Below are just a few pictures of the work we do.<br />
+            if you want to see more awesome work please head over<br />
+            to our contact page and we can start building towards <br />
+            your dream build.</p>
         </div>
              
             <Carousel />

@@ -1,0 +1,15 @@
+.fpic {
+    height: 500px;
+    width: 400px;
+}
+
+.contactBackground {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+a {
+    color:black;
+}
