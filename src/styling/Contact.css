@@ -1,6 +1,8 @@
 .fpic {
     height: 500px;
     width: 400px;
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 .contactBackground {
@@ -8,13 +10,18 @@
     flex-direction: column;
     justify-content: center;
     background-color: white;
+    padding: 30px;
 }
 
 .myphoto {
     padding: 10px;
+    
 }
 
 a {
     color:black;
 }
 
+.spacer {
+    padding: 20px;
+}

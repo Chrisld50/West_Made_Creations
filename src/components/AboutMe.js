@@ -12,6 +12,10 @@ export default function AboutMe() {
     <div>
     <Header />
     </div>
+
+    <div className={'spacer'}></div>
+
+
         <div className={'ambackground'}>
             <h3 className={'top'}> About Me </h3>
             <div className={'ptext'}>
@@ -34,6 +38,7 @@ export default function AboutMe() {
                 <p>Agkmphlokmgeae Egaekmpeojpoejtg Egpejpoejg EGpaegpeklm EgaehgaplopeloEPojpok-egagea EWGaeghehpjmeoh</p> 
                 <p>Agkmphlokmgeae Egaekmpeojpoejtg Egpejpoejg EGpaegpeklm EgaehgaplopeloEPojpok-egagea EWGaeghehpjmeoh</p> 
             </div>
+
     </div>
 
     <div>

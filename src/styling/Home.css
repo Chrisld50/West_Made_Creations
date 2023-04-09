@@ -3,9 +3,14 @@
     flex-direction: column;
     justify-content: center;
     background-color: white;
+    padding: 30px;
 }
 
 .card {
     background-color: white;
     border: 1px solid white;
+}
+
+.spacer {
+    padding: 20px;
 }

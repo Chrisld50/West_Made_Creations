@@ -13,6 +13,8 @@ export default function Home() {
             <Header />
         </div>
 
+        <div className={'spacer'}></div>
+
         <div className={'info'}>
 
         <div>
