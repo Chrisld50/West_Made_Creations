@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Fpic from '../images/Contact_Page_Build.jpg';
 import '../styling/Contact.css';
+import MyPhoto from '../images/David.jpg';
 
 export default function Contact() {
     return (
@@ -23,9 +23,16 @@ export default function Contact() {
                 <p>Linkedin: <br /><a href="linkedin"target="_blank" rel="noreferrer" > David West </a> </p>
                 </div>
 
+                    <div className='myphoto'>
+                        <p>Hope to hear from you soon!</p>
+                        <img className={'fpic'} src={MyPhoto} alt='me'/>
+                    </div> 
+
 
             <div> 
-                <img className={'fpic'} src={Fpic} alt='build pic' />
+                <h4>About This Page</h4>
+                <p>The background image used was originally created by starline on Freepik. 
+                    <br/> The webpage was created by Web Developer Christian Quarles</p>
             </div>
 
             </div>

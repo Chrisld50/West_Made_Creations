@@ -1,11 +1,11 @@
 import React from 'react';
-
+import '../styling/Footer.css';
 
 export default function Footer() {
     return (
         <div className={'text white'}>
-            <div>Image by starline on Freepik</div>
-            <div>Page Created by Christian Q</div>
+            <div className ={'footer1'}></div>
+            <div className ={'footer2'}></div>
         </div>
     )
 }

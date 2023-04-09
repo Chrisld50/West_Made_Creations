@@ -7,7 +7,7 @@ export default function NavigationBar() {
     return (
         <div>
           <Navbar>
-            <Nav className={"mx-auto navbar"}>
+            <Nav className={"mx-auto nav"}>
               <Nav.Link className={"navbar"} href="/">Home</Nav.Link>
               <Nav.Link className={"navbar"}  href="/aboutme">About Me</Nav.Link>
               <Nav.Link className={"navbar"}  href="/contact">Contact</Nav.Link>

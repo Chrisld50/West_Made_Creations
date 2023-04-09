@@ -14,8 +14,8 @@ export default function Header() {
             <h2 className ={'item'}> West Made Creations </h2>
             <h3 className ={'item'}> WE DO IT RIGHT!</h3>
         </div>
+        <Navbar/>
     </div>
-        <Navbar />
 </div>
     )
 }

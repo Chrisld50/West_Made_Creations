@@ -1,3 +1,12 @@
+.nav {
+    padding-left: 500px;
+}
+
 .navbar {
-    color: white;
+    background-image: linear-gradient(45deg, #7884f3, #af42a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: large;
 }
